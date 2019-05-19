@@ -1,0 +1,27 @@
+{
+    "home": {
+        "pageTitle": "Bingo Bango — Wie Magie!",
+        "comingSoon": "Kommt hart & bald!",
+        "description": "Auf Bingo Bango liefern dir Leute aus deiner Umgebung was immer du willst.",
+        "cards": {
+            "1": {
+                "title": "6 Bier (irgendein Späti Bier ist ok)",
+                "location": "Rosenthaler Platz 47 18401 Berlin",
+                "description": "Bei Krüger klingeln",
+                "price": "2€"
+            },
+            "2": {
+                "title": "Schweinerippchen vom Asia Deli",
+                "location": "Karl-Marx-Straße 47 12043 Berlin",
+                "description": "Apartment #29, Hinterhaus, an der roten Wand",
+                "price": "3€"
+            },
+            "3": {
+                "title": "2 Kaffee von Five Elephants Xberg",
+                "location": "Pflügerstraße 15 12047 Berlin",
+                "description": "Die Tür ist im Innenhof rechts an der blauen Wand",
+                "price": "1€"
+            }
+        }
+    }
+}
