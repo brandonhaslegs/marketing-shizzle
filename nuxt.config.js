@@ -50,11 +50,13 @@ export default {
         locales: [
           {
             code: 'en',
-            iso: 'en-US'
+            iso: 'en-US',
+            name: 'English'
           },
           {
             code: 'de',
-            iso: 'de-DE'
+            iso: 'de-DE',
+            name: 'Deutsch'
           }
         ],
         defaultLocale: 'en',
@@ -64,6 +66,9 @@ export default {
             en: en,
             de: de
           }
+        },
+        detectBrowserLanguage: {
+          useCookie: true
         }
       }
     ]
