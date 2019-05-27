@@ -1,0 +1,7 @@
+dispatch:
+  - url: "app.bingobango.app/*"
+    service: app
+  - url: "bingobango.app/*"
+    service: default
+  - url: "www.bingobango.app/*"
+    service: default
