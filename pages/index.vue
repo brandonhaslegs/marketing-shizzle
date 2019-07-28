@@ -114,12 +114,10 @@ export default {
       .logo
         width: 15vw
         max-width: 196px
-        margin: 0 -2vw 0 -2vw
+        margin: 0 -4.5vw 0 -4vw
         z-index: 10
         transform: translateY(minmax(-.5vw, -10px))
         border-radius: 98px
-        -webkit-filter: drop-shadow(10px 30px 40px rgba(26, 73, 42, 0.24)) drop-shadow(0px 4px 4px rgba(26, 73, 42, 0.25))
-        filter: drop-shadow(10px 30px 40px rgba(26, 73, 42, 0.24)) drop-shadow(0px 4px 4px rgba(26, 73, 42, 0.25))
   .signup
     grid-area: signup
     display: flex
