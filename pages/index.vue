@@ -112,15 +112,14 @@ export default {
       display: flex
       flex-direction: row
       .logo
-        height: 15vw
         width: 15vw
         max-width: 196px
-        max-height: 196px
-        margin: 0 minmax(-2vw, -16px)
+        margin: 0 -2vw 0 -2vw
         z-index: 10
         transform: translateY(minmax(-.5vw, -10px))
         border-radius: 98px
-        box-shadow: 10px 30px 40px rgba(0, 0, 0, 0.24), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 1px 0px rgba(255, 255, 255, 0.68)
+        -webkit-filter: drop-shadow(10px 30px 40px rgba(26, 73, 42, 0.24)) drop-shadow(0px 4px 4px rgba(26, 73, 42, 0.25))
+        filter: drop-shadow(10px 30px 40px rgba(26, 73, 42, 0.24)) drop-shadow(0px 4px 4px rgba(26, 73, 42, 0.25))
   .signup
     grid-area: signup
     display: flex
