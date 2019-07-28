@@ -114,7 +114,7 @@ export default {
       .logo
         width: 15vw
         max-width: 196px
-        margin: 0 -2vw 0 -2vw
+        margin: 0 -4.5vw 0 -3.5vw
         z-index: 10
         transform: translateY(minmax(-.5vw, -10px))
         border-radius: 98px
