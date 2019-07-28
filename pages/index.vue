@@ -118,8 +118,6 @@ export default {
         z-index: 10
         transform: translateY(minmax(-.5vw, -10px))
         border-radius: 98px
-        -webkit-filter: drop-shadow(10px 30px 40px rgba(26, 73, 42, 0.24)) drop-shadow(0px 4px 4px rgba(26, 73, 42, 0.25))
-        filter: drop-shadow(10px 30px 40px rgba(26, 73, 42, 0.24)) drop-shadow(0px 4px 4px rgba(26, 73, 42, 0.25))
   .signup
     grid-area: signup
     display: flex
